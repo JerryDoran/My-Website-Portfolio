@@ -26,7 +26,7 @@
     />
 
     <!-- MAIN STYLE SHEET USING SASS-->
-    <link rel="stylesheet" href="dist\css\main.min.css" />
+    <link rel="stylesheet" href="/dist/css/main.min.css" />
 
     <title>My Site</title>
   </head>
@@ -36,7 +36,7 @@
       <a href="index.html">
         <div class="signature">
           <h5 class="signature-heading">John Doe</h5>
-          <h3 class="signature-subhead">Software Engineer</h3>
+          <h3 class="signature-subheading">Software Engineer</h3>
         </div>
       </a>
     </header>
@@ -107,54 +107,173 @@
           <h1 class="heading-title">Latest work</h1>
         </div>
         <div class="row no-gutters">
-          <div class="lightbox-content col-12 col-sm-6">
-            <a href="images/img-1.jpg" data-lightbox="photograph">
-              <img src="images/img-1.jpg" class="img-fluid" alt="" />
+          <div class="lightbox-content col-12 col-sm-6 col-md-4">
+            <a href="img/img-1.jpg" data-lightbox="photograph">
+              <img src="img/img-1.jpg" class="img-fluid" alt="" />
             </a>
           </div>
-          <div class="lightbox-content col-12 col-sm-6">
-            <a href="images/img-2.jpg" data-lightbox="photograph">
-              <img src="images/img-2.jpg" class="img-fluid" alt="" />
+          <div class="lightbox-content col-12 col-sm-6 col-md-4">
+            <a href="img/img-2.jpg" data-lightbox="photograph">
+              <img src="img/img-2.jpg" class="img-fluid" alt="" />
             </a>
           </div>
-          <div class="lightbox-content col-12">
-            <a href="images/img-3.jpg" data-lightbox="photograph">
-              <img src="images/img-3.jpg" class="img-fluid" alt="" />
+          <div class="lightbox-content col-12 col-md-4">
+            <a href="img/img-3.jpg" data-lightbox="photograph">
+              <img src="img/img-3.jpg" class="img-fluid" alt="" />
             </a>
           </div>
-          <div class="lightbox-content col-12 col-sm-6">
-            <a href="images/img-4.jpg" data-lightbox="photograph">
-              <img src="images/img-4.jpg" class="img-fluid" alt="" />
+          <div class="lightbox-content col-12 col-sm-6 col-md-4">
+            <a href="img/img-4.jpg" data-lightbox="photograph">
+              <img src="img/img-4.jpg" class="img-fluid" alt="" />
             </a>
           </div>
-          <div class="lightbox-content col-12 col-sm-6">
-            <a href="images/img-5.jpg" data-lightbox="photograph">
-              <img src="images/img-5.jpg" class="img-fluid" alt="" />
+          <div class="lightbox-content col-12 col-sm-6 col-md-4">
+            <a href="img/img-5.jpg" data-lightbox="photograph">
+              <img src="img/img-5.jpg" class="img-fluid" alt="" />
             </a>
           </div>
-          <div class="lightbox-content col-12 col-sm-6">
-            <a href="images/img-6.jpg" data-lightbox="photograph">
-              <img src="images/img-6.jpg" class="img-fluid" alt="" />
+          <div class="lightbox-content col-12 col-sm-6 col-md-4">
+            <a href="img/img-6.jpg" data-lightbox="photograph">
+              <img src="img/img-6.jpg" class="img-fluid" alt="" />
             </a>
           </div>
-          <div class="lightbox-content col-12 col-sm-6">
-            <a href="images/img-7.jpg" data-lightbox="photograph">
-              <img src="images/img-7.jpg" class="img-fluid" alt="" />
+          <div class="lightbox-content col-12 col-sm-6 col-md-4">
+            <a href="img/img-7.jpg" data-lightbox="photograph">
+              <img src="img/img-7.jpg" class="img-fluid" alt="" />
             </a>
           </div>
-          <div class="lightbox-content col-12 col-sm-6">
-            <a href="images/img-8.jpg" data-lightbox="photograph">
-              <img src="images/img-8.jpg" class="img-fluid" alt="" />
+          <div class="lightbox-content col-12 col-sm-6 col-md-4">
+            <a href="img/img-8.jpg" data-lightbox="photograph">
+              <img src="img/img-8.jpg" class="img-fluid" alt="" />
             </a>
           </div>
-          <div class="lightbox-content col-12 col-sm-6">
-            <a href="images/img-9.jpg" data-lightbox="photograph">
-              <img src="images/img-9.jpg" class="img-fluid" alt="" />
+          <div class="lightbox-content col-12 col-sm-6 col-md-4">
+            <a href="img/img-9.jpg" data-lightbox="photograph">
+              <img src="img/img-9.jpg" class="img-fluid" alt="" />
             </a>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- TESTIMONIAL SECTION -->
+    <section class="testimonials py-5">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h1 class="heading-title">What people are saying</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-8 m-auto">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#myCarousel"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+
+              <div class="carousel-inner">
+                <!-- ONE CAROUSEL ITEM -->
+                <div class="item carousel-item active">
+                  <div class="img-box">
+                    <img src="/dist/img/img-7.jpg" alt="" />
+                    <p class="testimonial">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ut ducimus velit suscipit fuga quos corrupti minima
+                      nostrum tempore dolore officia?
+                    </p>
+                    <p class="customer"><strong>Web Developers</strong></p>
+                  </div>
+                </div>
+
+                <!-- ONE CAROUSEL ITEM -->
+                <div class="item carousel-item">
+                  <div class="img-box">
+                    <img src="/dist/img/img-8.jpg" alt="" />
+                    <p class="testimonial">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ut ducimus velit suscipit fuga quos corrupti minima
+                      nostrum tempore dolore officia?
+                    </p>
+                    <p class="customer"><strong>Web Developers</strong></p>
+                  </div>
+                </div>
+
+                <!-- ONE CAROUSEL ITEM -->
+                <div class="item carousel-item">
+                  <div class="img-box">
+                    <img src="/dist/img/img-9.jpg" alt="" />
+                    <p class="testimonial">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ut ducimus velit suscipit fuga quos corrupti minima
+                      nostrum tempore dolore officia?
+                    </p>
+                    <p class="customer"><strong>Web Developers</strong></p>
+                  </div>
+                </div>
+              </div>
+
+              <a
+                href="#myCarousel"
+                class="carousel-control left carousel-control-prev"
+                data-slide-to="prev"
+                ><i class="fa fa-angle-left"></i
+              ></a>
+              <a
+                href="#myCarousel"
+                class="carousel-control right carousel-control-next"
+                data-slide-to="next"
+                ><i class="fa fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5 col-lg-4 mb-5 mb-md-0">
+            <a href="index.html">
+              <div class="signature">
+                <h5 class="signature-heading">John Doe</h5>
+                <h3 class="signature-subhead">Software Engineer</h3>
+              </div>
+            </a>
+            <small class="d-block mt-2 text-muted"
+              >&copy; Copyright 2019. All rights reserved</small
+            >
+          </div>
+          <div class="col-12 col-md-5 col-lg-4 mb-5 mb-md-0">
+            <h5 class="text-uppercase">Follow me</h5>
+            <ul class="list-unstyled text-small mb-0">
+              <li>
+                <a href="#" class="text-muted">Facebook</a>
+                <a href="#" class="text-muted">Instagram</a>
+                <a href="#" class="text-muted">Twitter</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-5 col-lg-4">
+            <h5 class="text-uppercase">Newsletter</h5>
+            <p class="text-muted">Be sure to subscribe to our newsletter</p>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Email..." />
+              <div class="input-group-append">
+                <button class="btn" type="button">
+                  <i class="far fa-paper-plane"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- BOOTSTRAP SCRIPTS-->
     <script
@@ -168,5 +287,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="/dist/js/main.js"></script>
   </body>
 </html>
