@@ -1,6 +1,6 @@
 // FILE IMPORTS
-@import "config";
-@import "colors";
+@import 'config';
+@import 'colors';
 
 /****************************** HEADER SECTION ********************************/
 header {
@@ -79,7 +79,7 @@ header {
   }
 
   .signature-heading-about {
-    font-family: "Niconne", sans-serif;
+    font-family: 'Niconne', sans-serif;
     font-size: 3rem;
   }
 
@@ -94,14 +94,15 @@ header {
   }
 }
 
-/****************************** GALLERY SECTION ********************************/
+/****************************** PORTFOLIO SECTION ********************************/
+
 .section-heading {
   position: relative;
   display: block;
   margin-bottom: 100px;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     background-color: rgba(56, 65, 71, 0.5);
     width: 1px;
@@ -130,7 +131,7 @@ header {
   }
 
   a::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -145,8 +146,8 @@ header {
   }
 
   a::after {
-    font-family: "Font Awesome 5 Free";
-    content: "\f00e";
+    font-family: 'Font Awesome 5 Free';
+    content: '\f00e';
     font-weight: 600;
     position: absolute;
     top: 50%;
@@ -241,13 +242,18 @@ footer {
   .signature-heading-footer {
     color: $main-white;
     font-size: 3rem;
-    font-family: "Niconne", sans-serif;
+    font-family: 'Niconne', sans-serif;
   }
 
   .signature-subhead-footer {
     color: $main-white;
     font-size: 1.25rem;
     font-weight: 300;
+  }
+
+  .signature-email {
+    color: $main-white;
+    font-size: .75rem;
   }
 
   h5 {
@@ -259,6 +265,10 @@ footer {
     color: (255, 255, 255, 0.7) !important;
   }
 
+  .copy {
+    margin-top: 2rem;
+  }
+
   .input-group .btn {
     background-color: $dark-gray;
     color: $main-white;
@@ -267,6 +277,10 @@ footer {
     &:hover {
       opacity: 0.6;
     }
+  }
+
+  textarea {
+    width: 100%;
   }
 }
 
